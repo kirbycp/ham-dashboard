@@ -62,11 +62,11 @@ const aIMG = [
   
   [
     "",
-    "http://hamclock.local:3000",
+    "http://hamclock.lan:3000",
   ],
   [
     "APRS",
-    "http://hamclock.local:8008/map.png",
+    "http://hamclock.lan:8008/map.png",
   ],
   [
     "",
