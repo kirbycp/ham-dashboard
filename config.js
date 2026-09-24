@@ -62,7 +62,7 @@ const aIMG = [
   
   [
     "",
-    "http://hamclock.local:8080/get_capture.bmp",
+    "http://hamclock.local:3000",
   ],
   [
     "APRS",
