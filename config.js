@@ -1,4 +1,8 @@
 const topBarCenterText = `K5CTW - EM13`;
+
+// Grid layout (must be var so hamdash.html can read it via window.*)
+var layout_cols = 4;
+var layout_rows = 3;
 // Menu items
 // Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
