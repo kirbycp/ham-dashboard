@@ -4,23 +4,18 @@ const topBarCenterText = `K5CTW - EM13`;
 // The values are [color code, menu text, target link, scale factor, side],
 // add new lines following the structure for extra menu options. The comma at the end is important!
 const aURL = [
-  ["add10d", "BACK", "#", "1"],
-  ["add10d", "BACK", "#", "1", "R"],
-  ["ff9100", "Refresh", "#", "1"],
-  ["0dd1a7", "Help", "#", "1"],
+  ["f3de21", "SATS", "satellite.js"],
   ["2196F3", "CLUBLOG", "https://clublog.org/livestream/K5CTW", "1.7"],
   [
     "2196F3",
     "CONTEST",
     "https://www.contestcalendar.com/fivewkcal.html",
-    "1",
-  ],
+    "1",],
   [
     "2196F3",
     "HamClock",
-    "http://hamclock.local:8081/live.html",
-    "1",
-  ],
+    "http://hamclock.lan:3001",
+    "1",],
   [
     "2196F3",
     "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", 
@@ -61,12 +56,12 @@ const aURL = [
 const aIMG = [
   
   [
-    "",
-    "http://hamclock.lan:3000",
+    "ISS POSITION",
+    "https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=600&height=300&mode=M&satid=25544",
   ],
   [
-    "APRS",
-    "http://hamclock.lan:8008/map.png",
+    "SATELLITE CAN",
+    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/can/EXTENT3/GOES16-CAN-EXTENT3-1125x560.gif",
   ],
   [
     "",
