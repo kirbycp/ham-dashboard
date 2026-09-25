@@ -106,3 +106,10 @@ const aIMG = [
   ],
   
 ];
+
+// Image rotation delay per tile, in milliseconds (only matters for tiles with
+// more than one image). Must have exactly one entry per aIMG item.
+const tileDelay = Array(aIMG.length).fill(30000);
+
+// RSS feeds for the bottom ticker: [feed URL, refresh interval in minutes]
+const aRSS = [];
